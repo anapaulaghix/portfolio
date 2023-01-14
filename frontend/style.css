@@ -54,6 +54,7 @@ body {
     flex-direction: column;
     gap: 30px;
     padding-top: 50px;
+    padding-right: 50px;
 }
 
 .conteudo-principal-escrito-int{
@@ -81,6 +82,7 @@ body {
     height: 500px;
     display: flex;
     margin-top: 50px;
+    padding: 0%;
 }
 
 .secundario{
@@ -152,4 +154,17 @@ body {
 .icon{
     width: 64px;
     height: 64px;
+}
+
+@media screen and (max-width: 600px ) {
+    .conteudo-principal{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .imagemport{
+        max-width: 100%;
+        flex-direction: column;
+    }
 }
