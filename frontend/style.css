@@ -156,7 +156,7 @@ body {
     height: 64px;
 }
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 900px ) {
     .conteudo-principal{
         display: flex;
         width: 100%;
