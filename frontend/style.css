@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Fira Code', monospace;
 }
 
 body {
@@ -87,6 +88,7 @@ body {
 
 .secundario{
     border-top: #607B96;
+    justify-content: center;
 }
 
 .secundario-p{
@@ -94,7 +96,6 @@ body {
     font-family: 'Fira Code', monospace;
     color: #607B96;
     font-weight: 400;
-    line-height: 81px;
 }
 
 .secundario-git{
@@ -117,10 +118,27 @@ body {
     color: #E99287;
 }
 
-.menu-footer{
+.footer-principal{
     color: #607B96;
     font-family: 'Fira Code', monospace;
-    display: flex
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: #607B96 solid 0.2px;
+}
+
+.menu-footer{
+    font-family: 'Fira Code', monospace;
+    color: #607B96;
+    font-size: 18px;
+    padding: 18px;
+    border-right: 0.4px solid #607B96;
+    border-radius: 1px;
+}
+
+.uil uil-linkedin{
+    width: 100%;
 }
 
 .secundario{
@@ -132,28 +150,50 @@ body {
 }
 
 .secundario-h1{
-   font-family: 'Fira Code', monospace;
    color: #ffffff;
    border-top: 0.1px solid #607B96;
    padding-top: 48px;
 }
 
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
 .cards{
     display:flex;
+    flex-direction: row;
     justify-content:center;
     align-items:center;
     text-align: center;
     padding: 32px;
-    background-color: #ffffff;
+    box-shadow: 20px 20px 20px #011627;
+    border-radius: 15px;
+    border-top: #607B96 solid 0.1px;
+    border-left: #607B96 solid 0.1px;
+    color: #E5E9F0;
+    font-size: 14px;
 }
 
-.cards img{
+.icon img{
+    display: flex;
     width: 100%;
 }
 
 .icon{
     width: 64px;
     height: 64px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.span.js{
+    padding: 55px;
 }
 
 @media screen and (max-width: 900px ) {
@@ -166,5 +206,10 @@ body {
     .imagemport{
         max-width: 100%;
         flex-direction: column;
+    }
+    .container-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 }

@@ -11,9 +11,9 @@
 <body>
     <header class="cabecalho">
         <nav class="cabecalho-menu">
-            <a href=index.html class="cabecalho-menu-item">_hello</a>
-            <a href="aboutme.html" class="cabecalho-menu-item">_about-me</a>
-            <a href="projects.html" class="cabecalho-menu-item">_projects</a>
+            <a href="#index.html" class="cabecalho-menu-item">_hello</a>
+            <a href="#aboutme.html" class="cabecalho-menu-item">_about-me</a>
+            <a href="#projects.html" class="cabecalho-menu-item">_projects</a>
         </nav>
     </header>
 
@@ -27,49 +27,69 @@
            <p class="secundario-p">// and you can contact me on my linkedin</p>
             <h3 class="secundario-git"><b class="const">const</b> <b class="variable">githublink</b> <b class="b">=</b> <b class="link">"https://github.com/anapaulaghix"</b></h3>
            </div>
-           <img class="imagemport" src="img/portfolio.png"></img>
+           <img class="imagemport" src="img/developer-team.svg"></img>
         </section>
 
         <section class="secundario">
-            <h1 class="secundario-h1"> My Skills</h1>
-            <section class="cards">
+            <h1 class="secundario-h1">Skills</h1>
+            <p>Technicall Level</p>
+         
+            <section class="container-cards">
+            <div class="cards">
                 <div class="icon">
                     <img src="img/javascript-1.svg">
                 </div>
                 <h1>Javascript</h1>
-            </section>
+            </div>
 
-            <section class="cards">
+            <div class="cards" data-tilt>
                 <div class="icon">
                     <img src="img/react-2.svg">
                 </div>
                 <h1>React</h1>
-            </section>
+            </div>
 
-            <section class="cards">
+            <div class="cards" data-tilt>
                 <div class="icon"> 
                     <img src="img/python-5.svg">
                 </div>
                 <h1>Python</h1>
-            </section>
+            </div>
 
-            <section class="cards">
+            <div class="cards" data-tilt>
                 <div class="icon">
                     <img src="img/html-1.svg">
+                </div>
+                <h1>HTML5</h1>   
+            </div>
+
+            <div class="cards" data-tilt>
+                <div class="icon">
                     <img src="img/css-3.svg">
                 </div>
-                <h1>HTML5 e CSS3</h1>
+                <h1>CSS3</h1>   
+            </div>
         </section>
         </section>
     </main>
-    <footer>
-        <p class="menu-footer">find me in</p>
-        <a href="" class="menu-footer">
+
+    <footer class="footer-principal">
+        <p class="menu-footer">find me in:</p>
+        <a href="https://www.linkedin.com/in/ana-paula-ghiraldelli-668224217/" class="menu-footer">
             <i class="uil uil-linkedin"></i>
         </a>
-        <a href="" class="menu-footer">
+        <a href="https://github.com/anapaulaghix" class="menu-footer">
             <i class="uil uil-github"></i>
         </a>
     </footer>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".cards"), {
+            max: 25,
+            speed: 400
+        });
+     </script>
+
 </body>
 </html>
