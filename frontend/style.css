@@ -18,19 +18,17 @@ body {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 24px;
 }
 
 .cabecalho-menu{
     display: flex;
-    gap: 32px
 }
 
 .cabecalho-menu-item{
-    font-family: 'Fira Code', monospace;
     color: #607B96;
-    font-size: 18px;
-    border-right: 0.4px solid #607B96;
+    font-size: 16px;
+    border-right: 0.1px solid #607B96;
+    padding: 18px;
 }
 
 .cabecalho-menu-item:hover{
@@ -59,13 +57,11 @@ body {
 }
 
 .conteudo-principal-escrito-int{
-    font-family: 'Fira Code', monospace;
     color:#E5E9F0;
     font-size: 18px;
 }
 
 .conteudo-principal-escrito-nome{
-    font-family: 'Fira Code', monospace;
     color:#E5E9F0;
     font-size: 40px;
     font-weight: 450;
@@ -73,7 +69,6 @@ body {
 }
 
 .conteudo-principal-escrito-sub{
-    font-family: 'Fira Code', monospace;
     color: #4D5BCE;
     font-weight: 400;
     line-height: 81px;
@@ -93,13 +88,8 @@ body {
 
 .secundario-p{
     display: flex;
-    font-family: 'Fira Code', monospace;
     color: #607B96;
     font-weight: 400;
-}
-
-.secundario-git{
-    font-family: 'Fira Code', monospace;
 }
 
 .const{
@@ -120,7 +110,6 @@ body {
 
 .footer-principal{
     color: #607B96;
-    font-family: 'Fira Code', monospace;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -129,7 +118,6 @@ body {
 }
 
 .menu-footer{
-    font-family: 'Fira Code', monospace;
     color: #607B96;
     font-size: 18px;
     padding: 18px;
@@ -201,7 +189,8 @@ body {
         display: flex;
         width: 100%;
         flex-direction: column;
-        margin-left: 40px;
+        padding: 28px;
+        margin-left: 28px;
     }
     .imagemport{
         max-width: 100%;
