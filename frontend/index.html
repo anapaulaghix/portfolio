@@ -11,11 +11,12 @@
 </head>
 <body>
     <header class="cabecalho">
+        <input type="checkbox" class="check" id="bt_menu"></input>
+        <label for="bt_menu" class="uil uil-list-ul"></label>
         <nav class="cabecalho-menu">
-            <a href="#index.html" class="cabecalho-menu-item">_hello</a>
-            <a href="#aboutme.html" class="cabecalho-menu-item">_about-me</a>
-            <a href="#projects.html" class="cabecalho-menu-item">_projects</a>
-                <i class="uil uil-list-ul"></i>
+            <a href="index.html" class="cabecalho-menu-item">_hello</a>
+            <a href= "aboutme.html" class="cabecalho-menu-item">_about-me</a>
+            <a href="projects.html" class="cabecalho-menu-item">_projects</a>
         </nav>
     </header>
 
@@ -94,11 +95,10 @@
 
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-        VanillaTilt.init(document.querySelector(".cards"), {
+        VanillaTilt.init(document.querySelector(".cards", ".imagemport"), {
             max: 25,
             speed: 400
         });
      </script>
-
 </body>
 </html>
