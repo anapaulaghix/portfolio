@@ -244,8 +244,7 @@ body {
 .coluna1{
     display: flex;
     flex-direction: column;
-    border-bottom:  0.1px solid #607B96;
-    padding: 20px;
+    padding: 30px;
     margin-right: 30px;
     border-right: 0.1px solid #607B96;
     align-items: flex-start;
@@ -259,6 +258,49 @@ body {
     flex-direction: column;
     border-left: #607B96;
     margin-top: 20px;
+    padding: 30px;
+    margin-bottom: 300px;
+}
+
+.project-conteudo{
+    color: #E5E9F0;
+    display: flex;
+    margin-bottom: 100px;
+    border-top:  0.1px solid #607B96;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-principal h1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.cards-proj-cont{
+    display: flex;
+    flex-direction: row;
     padding: 20px;
-    margin-bottom: 100vh;
+}
+
+.cards-project{
+    margin-right: 20px;
+    padding: 20px;
+    border: 0.1px solid #607B96;
+    border-radius: 10px ;
+}
+
+.cards-project button{
+    float: right;
+    color: #E5E9F0;
+    background-color: #5565E8;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.icon-project{
+    width: 100%;
 }
