@@ -24,17 +24,28 @@
         <section class="project-principal">
         <h1>Projetos Front-end</h1>
             <h1>Linguagens</h1>
-            <i class="uil uil-html5"></i><input type="checkbox">HTML e CSS</input>
-            <i class="uil uil-java-script"></i><input type="checkbox">Javascript</input>
-            <i class="uil uil-react"></i><input type="checkbox">React</input>
+            <input type="checkbox" value="hc" id="hc">
+            <i class="uil uil-html5"></i>
+            <label for="hc">HTML e CSS</label>
+            </input>
+
+            <input type="checkbox" value="js" id="js">
+            <i class="uil uil-java-script"></i>
+            <label for="js">Javascript</label>
+            </input>
+
+            <input type="checkbox" value="react" id="react">
+            <i class="uil uil-react"></i>
+            <label for="react">React</label>
+            </input>
         </section>
 
-        <section class="cards-proj-cont">
+        <section class="cards-proj-cont" id="valuelist">
             <div class="cards-project">
                 <div class="icon-project">
                     <img src="img/solidariti.PNG">
                 </div>
-                <h1>Solidariti</h1>
+                <h3>Solidariti</h3>
                 <a href="https://github.com/anapaulaghix/app-js"><button>View more ></button></a>
             </div>
 
@@ -42,7 +53,7 @@
                 <div class="icon-project">
                     <img src="img/server.PNG">
                 </div>
-                <h1>Solidariti- server</h1>
+                <h3>Solidariti- server</h3>
                 <a href="https://github.com/anapaulaghix/server"><button>View more ></button></a>
             </div>
         </section>
@@ -57,5 +68,6 @@
             <i class="uil uil-github"></i>
         </a>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
