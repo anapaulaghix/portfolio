@@ -22,6 +22,7 @@ body {
 
 .cabecalho-menu{
     display: flex;
+    padding: 0.1px;
 }
 
 .cabecalho-menu-item{
@@ -113,22 +114,14 @@ body {
 .footer-principal{
     color: #607B96;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
     border-top: #607B96 solid 0.2px;
 }
 
 .menu-footer{
     color: #607B96;
     font-size: 18px;
-    padding: 18px;
-    border-right: 0.4px solid #607B96;
-    border-radius: 1px;
-}
-
-.uil-linkedin{
-    width: 100%;
+    border-right: 0.1px solid #607B96;
+    padding: 15px;
 }
 
 .secundario{
@@ -167,12 +160,10 @@ body {
     color: #E5E9F0;
     font-size: 14px;
 }
-
 .icon img{
     display: flex;
     width: 100%;
 }
-
 .icon{
     width: 64px;
     height: 64px;
@@ -180,6 +171,37 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.iconport{
+    display: flex;
+    width: 90%;
+}
+
+.cardsport{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 20px 20px 20px #011627;
+    border-radius: 15px;
+    border-top: #607B96 solid 0.1px;
+    border-left: #607B96 solid 0.1px;
+    color: #E5E9F0;
+    font-size: 14px;
+    width: 300px;
+    height: 300px;
+}
+
+.cardsport button{
+    color: #f5f5f5;
+    background-color: #607B96;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 10px;
 }
 
 .span.js{
@@ -232,6 +254,17 @@ body {
         margin-left: 0;
         padding: 50px;
     }
+    .cards-proj-cont{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
 }
 
 .about-me-conteudo{
@@ -252,6 +285,7 @@ body {
 
 .coluna1 h1{
     color: #E5E9F0;
+    font-size: 20px;
 }
 
 .coluna2{
@@ -280,21 +314,22 @@ body {
 
 .cards-proj-cont{
     display: flex;
-    flex-direction: row;
     padding: 20px;
+    margin: 20px;
 }
 
-.cards-project{
+.card{
     margin-right: 20px;
     padding: 20px;
     border: 0.1px solid #607B96;
-    border-radius: 10px ;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #011627;
+    color: #011627;
 }
 
-.cards-project button{
-    float: right;
-    color: #E5E9F0;
-    background-color: #5565E8;
+.btn-primary{
+    color: #102955;
     border-radius: 5px;
     border: none;
     font-size: 18px;

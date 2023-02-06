@@ -1,1 +1,0 @@
-var list = document.getElementById('valuelist')
