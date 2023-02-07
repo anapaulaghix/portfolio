@@ -29,7 +29,7 @@ body {
     color: #607B96;
     font-size: 16px;
     border-right: 0.1px solid #607B96;
-    padding: 18px;
+    padding: 16px;
     flex-direction: row;
     display: flex;
 }
@@ -176,6 +176,7 @@ body {
 .iconport{
     display: flex;
     width: 90%;
+    margin-bottom: 10px;
 }
 
 .cardsport{
@@ -312,30 +313,11 @@ body {
     margin-bottom: 12px;
 }
 
-.cards-proj-cont{
-    display: flex;
-    padding: 20px;
-    margin: 20px;
-}
-
-.card{
-    margin-right: 20px;
-    padding: 20px;
-    border: 0.1px solid #607B96;
-    border-radius: 10px;
-    width: 100%;
-    background-color: #011627;
-    color: #011627;
-}
-
-.btn-primary{
-    color: #102955;
-    border-radius: 5px;
-    border: none;
-    font-size: 18px;
-    padding: 8px;
-}
-
 .icon-project{
     width: 100%;
 }
+
+.progress{
+    margin-top: 40px;
+}
+
