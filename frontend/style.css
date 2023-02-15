@@ -301,7 +301,7 @@ body {
 .project-conteudo{
     color: #E5E9F0;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 20%;
     border-top:  0.1px solid #607B96;
     padding: 30px;
     flex-direction: column;
@@ -322,3 +322,104 @@ body {
     margin-top: 40px;
 }
 
+.progress-bar{
+    background: #959595 ;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div{
+    height: 10px;
+    width: 0%;
+    border-radius: 5px;
+}
+
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #1E2D3D;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css{
+    background: #00bcd4;
+    animation: css 1s linear forwards;
+}
+.html{
+    background:	#D2691E;
+    animation: html 1s linear forwards;
+}
+.py{
+    background: #3CB371;
+    animation: py 1s linear forwards;
+}
+.js{
+    background: #ffeb3b;
+    animation: js 1s linear forwards;
+}
+.react{
+    background: #9c27b0;
+    animation: react 1s linear forwards;
+}
+.mysql{
+    background: #DAA520;
+    animation: mysql 1s linear forwards;
+}
+
+.css span{
+    border: 1px solid #00bcd4 ;
+}
+.html span{
+    border: 1px solid #D2691E ;
+}
+.py span{
+    border: 1px solid #3CB371 ;
+}
+.js span{
+    border: 1px solid #ffeb3b ;
+}
+.react span{
+    border: 1px solid #9c27b0 ;
+}
+.mysql span{
+    border: 1px solid #DAA520 ;
+}
+
+@keyframes html{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes py{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes js{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes mysql{
+    100%{
+        width: 90%;
+    }
+}
